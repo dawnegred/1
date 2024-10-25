@@ -34,6 +34,9 @@
 
 在三层mlp网络上将第三批数据学习到的知识迁移到第四批数据
 
+## 结果
+第一批数据集的pred和真实值整理为7174morgan.csv，第一批迁移到第二批的pred和真实值整理为679morgan.csv，第二批迁移到第三批的pred和真实值整理为575morgan.csv，第三批迁移到第四批的pred和真实值整理为38morgan.csv
+
       cmd: python 3t4mlp.py
 
 
