@@ -5,9 +5,10 @@
 
 ## 运行
 在一维卷积神经网络上进行第一批数据的训练和预测
-      cmd: python cnn.py
 
       cmd: python vgg.py
+
+在三层mlp网络上进行第一批数据的训练和预测
 
       cmd: python vgg.py
 
