@@ -8,21 +8,12 @@
 - PIL（Pillow）
 - Matplotlib
 - Numpy
+- PyQt5>=5.15
 
-## 训练
+## 使用方法
+1. 运行应用
 ```bash
-python train.py
+python ship_recognition.py
 ```
-注意修改数据集路径
-```bash
-data_directory = "path/to/your/data"
-```
-
-## 训练
-```bash
-python infer.py
-```
-注意修改测试图片路径
-```bash
-test_image_path = "path/to/your/image"
-```
+2. 点击“加载图像”按钮选择一张舰船图像
+3. 点击“识别船只”按钮进行分类，结果将显示在按钮下方
